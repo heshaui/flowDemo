@@ -1,0 +1,122 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+#sdkBox {
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 99%;
+    height: 100%;
+    background: #fff;
+}
+/* #sdkBox.hide {
+    display: none;
+}
+#sdkBox.show {
+    display: block;
+} */
+.flowDemo {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: #f0f0f0;
+}
+.btn {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.cardBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardItem {
+    width: 33.33333%;
+    padding: 20px;
+    box-shadow: 10px #ccc;
+    margin-bottom: 20px;
+}
+
+.voiceCard {
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 5px #eee;
+    overflow: hidden;
+}
+.voiceCard .cardHead {
+    margin: 0 -20px;
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px solid #f0f8fa;
+}
+.cardHead > p {
+    font-size: 12px;
+    color: #909399;
+}
+.voiceCard .cardHead .cardTop {
+    height: 24px;
+    position: relative;
+}
+.voiceCard .cardHead .position-right {
+    position: absolute;
+    display: inline-block;
+    right: -10px;
+    top: -10px;
+}
+.voiceCard .cardHead .card-title {
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    float: left;
+    font-weight: 500;
+}
+
+.voiceCard .cardContent {
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f8fa;
+}
+.voiceCard .cardFooter .toolBox {
+    height: 77px;
+    text-align: center;
+}
+.voiceCard .cardFooter .toolBox .btn {
+    margin: 10px 10px 0;
+}
+.voiceCard.autoH .cardFooter .toolBox {
+    height: auto;
+}
